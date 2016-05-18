@@ -1,0 +1,10 @@
+1. Create file with sublime or something similar (some files may not send through Git)
+2. Place file in repo (C:\cygwin64\home\PO18352\MyProject)
+3. If subfolder is needed, place there.
+4. Open Cygwin Terminal
+5. Type cd ~/MyProject/subfoldername
+6. Need to tell the terminal about the file. Type git add filename.ext  
+7. Now the terminal knows about the file, tracks the file.
+8. To commit it, type git commit -m filename.ext . This does not move it, it prepares it.
+9. To actually upload it, type git push origin master . This physically moves/uploads the file.
+10. Note: if updating a file you don’t need to add, if the name is same, replace in local repo and commit and push again to move.
